@@ -57,7 +57,7 @@ void segue_parede(){
 
         /*  Se o robô estiver no modo segue_parede e estiver se afastando
          *  da parede, ele vira para a direita até que a distancia
-         *  detectada pelo sonar à direia seja menor ou igual que a menor
+         *  detectada pelo sonar à direita seja menor ou igual que a menor
          *  distancia.
          */
         if (flag_segue_parede == 1 && read_sonar(7) > 1300){
